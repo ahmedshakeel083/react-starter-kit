@@ -1,6 +1,5 @@
 #!/usr/bin/env node
-
-const { execSync } = require("child_process");
+import { execSync } from "child_process";
 
 const runCommand = command => {
   try {
@@ -19,11 +18,11 @@ const installDepsCommand = `cd ${repoName} && npm install`;
 
 console.log(`Cloning the repositry with name ${repoName}`);
 const checkedOut = runCommand(gitCheckoutCommand);
-if(!checkedOut) process.exit(-1);
+if(!checkedOut) process.exit(1);
 
 console.log(`Installing dependecies for ${repoName}`);
 const installedDeps = runCommand(installDepsCommand);
-if (!installedDeps) process.exit(-1);
+if (!installedDeps) process.exit(1);
 
 console.log("Congratulations, You can start the development now");
 console.log(`cd ${repoName} && npm run dev`);
