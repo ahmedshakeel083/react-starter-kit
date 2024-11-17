@@ -1,0 +1,93 @@
+# React Starter Kit
+
+This template provides a minimal setup to get React with Typescript, Vite, HMR along with other features.
+
+## Table of Contents
+- Features
+- Packages Installed
+- File Structure
+- Usage
+
+### Features
+- State  Management - Redux Toolkit
+- Routing - React Router with with createBrowserRouter
+- Styling - Shadcn Ui Components with Tailwind css
+- Testing - Testcases are written with vitest, jest
+- Linting - Eslint with Husky for pre-commit checks
+- Network Layer - network file using axios
+- Form Validation Schema - React Hook Forms using zod
+
+### Packages Installed
+|Name|Usage  |
+|--|--|
+|@hookform/resolvers  |Forms creation with validation  |
+|axios  |Network Calls  |
+|react-ga4  |Tracking in Google Analytics  |
+|react-hook-form  |Create Forms and Validate  |
+|react-redux  |State Management  |
+|react-router-dom	|To enable routing between internal pages|
+|tailwind-merge |Merge classes for same component |
+|zod	|Form Validation	|
+|vite	|Development Build tool	|
+|typescript	|Type checks|
+
+### File Structure
+	├──.husky 
+	│   └── pre-commit		# Script to run before commit eg linting
+    ├── public			# Can be used for assets incase of exceptions
+    ├── src
+    │   ├── assets		# To manage and optimize all the images, fonts, etc
+    │   ├── components     	
+    │   │   ├── common 		# Reusable common components
+    │   │   ├── ui 			# Reusable shadcn ui components
+    │   ├── hooks			# Custom hooks
+    │   ├── lib
+    │   │   ├── constants		# constants throughout the project
+    │   │   └── utils      # shadcn ui utils
+    │   ├── network        # Network requests and API layer
+    │   ├── pages          # Pages or views
+    │   ├── state       # State management
+    │   │   ├── slices    # All the reducers/slices
+    │   │   └── store.ts   # All the reducers to be imported here
+    │   ├── tests          # Testcases
+    │   ├──  App.tsx            # App component with all routes
+    │   ├── index.css 		# For css variables and tailwind imports
+    │   ├── main.tsx		# Entry Point for the project
+    │   ├── output.css    # Tailwind css output file
+    ├── .env.development       # development environment file
+    ├── .env.production    # production environment file
+    ├── .env.uat    # uat environment file
+    ├── .eslintrc.json    #linting configuration
+    ├── .gitignore          # Git Ignored folder and files name
+    ├── .eslintrc          # ESLint configuration
+    ├── components.json          # Shadcn ui components config
+    ├── index.html          # Project HTML file
+    ├── postcss.config.js          # Tailwind config using this file
+    ├── tailwind.config.js          # Tailwind main config file
+    ├── tsconfig.app.json          # typescript config file
+    ├── tsconfig.typedoc.json          # Typedoc Config file
+    ├── vite.config.ts          # Vite as build tool config
+    ├── vitest.config.ts          # Vitest configuration
+    ├── vitest.setup.ts          # Vitest configuration
+    ├── README.md
+    └── package.json
+
+### Usage
+- To run the project in local
+```
+npm install && npm run dev
+```
+- To run the project build
+```
+npm run build && npm run preview
+```
+- TO run testcases
+```
+npm run test
+npm run coverage
+```
+- To create a new typedoc after making changes to project or adding new types or new components
+```
+npm run docs
+```
+This is added for test

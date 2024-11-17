@@ -1,0 +1,25 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:storybook/recommended"
+  ],
+  "plugins": [
+    "react"
+  ],
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
+  "rules": {
+    "no-unused-vars": "error",
+    "no-console": "warn",
+    "no-debugger": "error",
+    "no-empty": "warn",
+    "no-trailing-spaces": "error",
+    "no-extra-semi": "error",
+    "no-unused-expressions": "error",
+    "no-unreachable": "error"
+  }
+}
