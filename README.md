@@ -81,7 +81,7 @@ npm install && npm run dev
 ```
 npm run build && npm run preview
 ```
-- TO run testcases
+- To run testcases
 ```
 npm run test
 npm run coverage
@@ -90,4 +90,7 @@ npm run coverage
 ```
 npm run docs
 ```
-This is added for test
+- To run Storybook to checkout all the variants of the components
+```
+npm run storybook
+```

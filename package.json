@@ -3,14 +3,12 @@
   "version": "0.0.1",
   "type": "module",
   "author": {
-    "name": "Datamatics Global Services Ltd",
-    "email": "business@datamatics.com",
+    "name": "Shakeel Ahmed",
+    "email": "ahmedshakeel083@gmail.com",
     "url": "https://www.datamatics.com/get-in-touch"
   },
   "license": "MIT",
-  "bin": {
-    "react-starter-kit": "./bin/cli.js"
-  },
+  "bin": "./bin/cli.js",
   "repository": {
     "type": "git",
     "url": "https://code.techjini.com/techjini-development/CodeAlley/react-native-srarter-kit.git"
