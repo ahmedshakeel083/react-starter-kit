@@ -10,7 +10,7 @@ This template provides a minimal setup to get React with Typescript, Vite, HMR a
 
 ### Features
 - State  Management - Redux Toolkit
-- Routing - React Router with with createBrowserRouter
+- Routing - React Router with createBrowserRouter
 - Styling - Shadcn Ui Components with Tailwind css
 - Testing - Testcases are written with vitest, jest
 - Linting - Eslint with Husky for pre-commit checks
