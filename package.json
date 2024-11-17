@@ -1,5 +1,5 @@
 {
-  "name": "react-starter-kit",
+  "name": "@ahmedshakeel083/react-starter-kit",
   "version": "0.0.1",
   "type": "module",
   "author": {
@@ -11,7 +11,7 @@
   "bin": "./bin/cli.js",
   "repository": {
     "type": "git",
-    "url": "https://code.techjini.com/techjini-development/CodeAlley/react-native-srarter-kit.git"
+    "url": "https://github.com/ahmedshakeel083/react-starter-kit"
   },
   "scripts": {
     "dev": "vite",
