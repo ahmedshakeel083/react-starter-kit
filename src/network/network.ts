@@ -27,7 +27,7 @@ export const get_req = async (url: string, headers = {}) => {
   return result;
 };
 
-export const post_req = async (url: string, data, headers) => {
+export const post_req = async (url: string, data = {}, headers = {}) => {
   console.log("headers", data);
   const result = await axiosClient.post(
     url,
@@ -40,7 +40,7 @@ export const post_req = async (url: string, data, headers) => {
   return result;
 };
 
-export const put_req = async (url, data, headers) => {
+export const put_req = async (url: string, data = {}, headers = {}) => {
   const result = await axiosClient.put(
     url,
     { ...data },
@@ -63,10 +63,10 @@ export const setRequestHeader = () => {
   );
 };
 /* Setting Header For request during cross integration */
-export const setAuthHeader = (authToken) => {
+export const setAuthHeader = (authToken: string) => {
   axiosClient.defaults.headers["Authorization"] = `Bearer ${authToken}`;
 };
 
-export const setImagHeader = (data) => {
+export const setImagHeader = (data: string) => {
   axiosClient.defaults.headers["Content-Type"] = data;
 };

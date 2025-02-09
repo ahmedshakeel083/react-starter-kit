@@ -109,3 +109,15 @@ npm publish --access public
 ```
 npx @username/reponame
 ```
+
+### Components
+  - Avatar
+  - Badge
+  - Button
+  - Carousel
+  - Drawer
+  - Form
+  - Input
+  - Label
+  - Textarea
+  - Toast

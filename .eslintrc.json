@@ -2,10 +2,13 @@
   "extends": [
     "eslint:recommended",
     "plugin:react/recommended",
-    "plugin:storybook/recommended"
+    "plugin:storybook/recommended",
+    "prettier"
   ],
+  "parser": "@typescript-eslint/parser",
   "plugins": [
-    "react"
+    "react",
+    "@typescript-eslint"
   ],
   "settings": {
     "react": {
