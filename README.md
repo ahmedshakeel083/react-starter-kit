@@ -115,9 +115,13 @@ npx @username/reponame
   - Badge
   - Button
   - Carousel
+  - Card
   - Drawer
+  - Dropdown
   - Form
+  - Hover Card
   - Input
   - Label
   - Textarea
   - Toast
+  - Table (data)
