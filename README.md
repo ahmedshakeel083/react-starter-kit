@@ -116,6 +116,7 @@ npx @username/reponame
   - Button
   - Carousel
   - Card
+  - Chart
   - Drawer
   - Dropdown
   - Form
