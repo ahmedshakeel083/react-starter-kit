@@ -112,16 +112,22 @@ npx @username/reponame
 
 ### Components
   - Avatar
+  - Accordion
   - Badge
   - Button
+  - Breadcrumb
+  - Calendar
   - Carousel
   - Card
   - Chart
   - Drawer
   - Dropdown
+  - Dialog/Popup
   - Form
   - Hover Card
   - Input
+  - Checkbox
+  - Radio
   - Label
   - Textarea
   - Toast
